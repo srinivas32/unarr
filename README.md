@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/selmf/unarr.svg?branch=master)](https://travis-ci.org/selmf/unarr)
-[![Build status](https://ci.appveyor.com/api/projects/status/m0jragl23k02r83b?svg=true)](https://ci.appveyor.com/project/selmf/unarr)
-
 # (lib)unarr
 
 **(lib)unarr** is a decompression library for RAR, TAR, ZIP and 7z* archives.
@@ -22,8 +19,8 @@ development of unarr, which no longer is maintained.
 [![Packaging status](https://repology.org/badge/vertical-allrepos/unarr.svg)](https://repology.org/metapackage/unarr)
 
 #### From OBS
-[.deb package](https://software.opensuse.org//download.html?project=home%3Aselmf&package=libunarr)  
-[.rpm package](https://software.opensuse.org//download.html?project=home%3Aselmf%3Ayacreader-rpm&package=libunarr)  
+[.deb package](https://software.opensuse.org//download.html?project=home%3Aselmf&package=libunarr)
+[.rpm package](https://software.opensuse.org//download.html?project=home%3Aselmf%3Ayacreader-rpm&package=libunarr)
 
 ### Building from source
 
@@ -40,9 +37,9 @@ description for embedded builds.
 
 #### CMake
 
->mkdir build  
->cd build  
->cmake ..  
+>mkdir build
+>cd build
+>cmake ..
 >make
 
 ... as a static library
