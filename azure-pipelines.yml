@@ -12,7 +12,7 @@ jobs:
   steps:
     - script: |
         sudo apt-get install -y zlib1g-dev libbz2-dev liblzma-dev
-        display-name: 'Install dependencies'
+      displayName: 'Install dependencies'
     - task: CMake@1
       inputs:
         cmakeArgs: '-DENABLE_7Z=ON -DBUILD_SAMPLES=ON ..'
