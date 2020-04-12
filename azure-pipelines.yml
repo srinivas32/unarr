@@ -8,7 +8,7 @@ jobs:
 
 - job: Linux
   pool:
-    vmImage: 'Ubuntu-16.04'
+    vmImage: 'ubuntu-latest'
   steps:
     - script: |
         sudo apt-get install -y zlib1g-dev libbz2-dev liblzma-dev
@@ -19,7 +19,7 @@ jobs:
 
 - job: Windows
   pool:
-    vmImage: vs2017-win2016
+    vmImage: 'windows-latest'
   steps:
     - task: CMake@1
       inputs:
@@ -27,7 +27,7 @@ jobs:
 
 - job: MacOS
   pool:
-    vmImage: macos-10.15
+    vmImage: 'macOS-latest'
   steps:
     - task: CMake@1
       inputs:
