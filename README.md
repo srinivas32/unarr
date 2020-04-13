@@ -1,3 +1,9 @@
+|Build|Status|
+|---|------|
+|Linux|[![Build Status](https://dev.azure.com/licorn0647/licorn/_apis/build/status/selmf.unarr?branchName=master&jobName=MacOS)](https://dev.azure.com/licorn0647/licorn/_build/latest?definitionId=2&branchName=master)|
+|MacOS|[![Build Status](https://dev.azure.com/licorn0647/licorn/_apis/build/status/selmf.unarr?branchName=master&jobName=MacOS)](https://dev.azure.com/licorn0647/licorn/_build/latest?definitionId=2&branchName=master)|
+|Windows|[![Build Status](https://dev.azure.com/licorn0647/licorn/_apis/build/status/selmf.unarr?branchName=master&jobName=Windows)](https://dev.azure.com/licorn0647/licorn/_build/latest?definitionId=2&branchName=master)|
+
 # (lib)unarr
 
 **(lib)unarr** is a decompression library for RAR, TAR, ZIP and 7z* archives.
