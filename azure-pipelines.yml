@@ -1,5 +1,7 @@
 # https://aka.ms/yaml
-
+arch:
+- amd64
+- ppc64le
 trigger:
 - master
 - develop
